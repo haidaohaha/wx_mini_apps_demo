@@ -1,0 +1,93 @@
+/* pages/post/post-detail/post-detail.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.head-image {
+  width: 100%;
+  height: 500rpx;
+}
+
+.audio {
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -51rpx;
+  top: 180rpx;
+  opacity: 0.6;
+}
+
+.author-date {
+  flex-direction: row;
+  margin: 20rpx 0 0 30rpx;
+}
+
+.avatar {
+  width: 64rpx;
+  height: 64rpx;
+  vertical-align: middle;
+}
+
+.author {
+  font-size: 30rpx;
+  font-weight: 400;
+  margin-left: 20rpx;
+  vertical-align: middle;
+  color: #666;
+}
+
+.content-text {
+  font-size: 24rpx;
+  margin: 0 20rpx;
+  color: #999;
+  vertical-align: middle;
+}
+
+.content-date {
+  font-size: 24rpx;
+  vertical-align: middle;
+}
+
+.title {
+  margin: 30rpx 0 20rpx 40rpx;
+  font-size: 36rpx;
+}
+
+.tool {
+}
+
+.circle-image {
+  float: right;
+  vertical-align: middle;
+  margin-right: 40rpx;
+}
+
+.circle-image image {
+  width: 90rpx;
+  height: 90rpx;
+}
+
+.share {
+  margin-left: 30rpx;
+}
+
+.horizon {
+  height: 1px;
+  background-color: #e5e5e5;
+  position: relative;
+  top: 46rpx;
+  width: 660rpx;
+  z-index: -99;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+.detail {
+  color: #666;
+  margin: 20rpx 30rpx 0;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}

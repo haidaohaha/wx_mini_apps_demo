@@ -1,0 +1,7 @@
+<view class="container">
+  <image class='user-avatar' src='/imgs/avatar/avatar.png' />
+  <text class="user-name">海盗</text>
+  <view class='motor-container' bindtap='onTap'>
+    <text class='motor'>开启微信小程序</text>
+  </view>
+</view>
