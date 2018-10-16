@@ -1,0 +1,10 @@
+<!--pages/movies/movie/movie-template.wxml-->
+<import src='/pages/movies/star/star-template.wxml' />
+
+<template name='movieTemplate'>
+  <view>
+    <text>你名字</text>
+    <image src='/imgs/movies/xiaoshenkedejiushu.png'></image>
+    <template is='starTemplate' />
+  </view>
+</template>

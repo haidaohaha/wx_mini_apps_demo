@@ -1,2 +1,6 @@
 <!--pages/movies/movie.wxml-->
-<text>pages/movies/movie.wxml</text>
+<!--pages/movies/movie-list/movie-list-template.wxml-->
+<import src='/pages/movies/movie-list/movie-list-template.wxml' />
+<view>
+  <template is='movieListTemplate' />
+</view>

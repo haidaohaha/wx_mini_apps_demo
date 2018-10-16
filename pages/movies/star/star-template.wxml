@@ -1,0 +1,13 @@
+<!--pages/movies/star/star-template.wxml-->
+<template name='starTemplate'>
+  <view class='star-container'>
+    <view class='stars'>
+      <image src='/imgs/icon/star.png'></image>
+      <image src='/imgs/icon/star.png'></image>
+      <image src='/imgs/icon/star.png'></image>
+      <image src='/imgs/icon/star.png'></image>
+      <image src='/imgs/icon/star.png'></image>
+    </view>
+    <text>8.9分</text>
+  </view>
+</template>
