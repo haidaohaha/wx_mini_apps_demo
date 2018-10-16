@@ -5,18 +5,12 @@
   flex-direction: row;
 }
 
-.star-container image {
-  height: 14rpx;
-  width: 14rpx;
-}
-
-
 .stars {
   display: flex;
   flex-direction: row;
   height: 17rpx;
-  margin-right: 24rpx;
-  margin-top: 6rpx;  
+  margin-right: 20rpx;
+  margin-top: 8rpx;  
 }
 
 .stars image {

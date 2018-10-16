@@ -1,0 +1,10 @@
+<!--pages/movies/more/more-template.wxml-->
+<template name='slogan'>
+  <view class='slogan'>
+    <text class='slogan-theme'>正在热映</text>
+    <view class='slogan-title'>
+      <text class='slogan-tap'>更多</text>
+      <image class='slogan-image' src='/imgs/icon/arrow-right.png'></image>
+    </view>
+  </view>
+</template>

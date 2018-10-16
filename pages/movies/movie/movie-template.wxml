@@ -2,9 +2,9 @@
 <import src='/pages/movies/star/star-template.wxml' />
 
 <template name='movieTemplate'>
-  <view>
-    <text>你名字</text>
-    <image src='/imgs/movies/xiaoshenkedejiushu.png'></image>
+  <view class='movie-container'>
+    <image class='movie-image' src='/imgs/movies/xiaoshenkedejiushu.png'></image>
+    <text class='movie-title'>肖申克的救赎</text>
     <template is='starTemplate' />
   </view>
 </template>
