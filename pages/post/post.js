@@ -20,8 +20,17 @@ Page({
     })
   },
   onPostTap: function(event) {
-    const {postid} = event.currentTarget.dataset;
-
+    const {
+      postid
+    } = event.currentTarget.dataset;
+    wx.navigateTo({
+      url: '/pages/post/post-detail/post-detail?id=' + postid,
+    })
+  },
+  onSwiperTap: function(event) {
+    const {
+      postid
+    } = event.target.dataset;
     wx.navigateTo({
       url: '/pages/post/post-detail/post-detail?id=' + postid,
     })

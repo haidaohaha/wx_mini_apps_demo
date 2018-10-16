@@ -29,3 +29,8 @@
   font-size: 22rpx;
   line-height: 80rpx;
 }
+
+page{
+    height: 100%;
+    background-color:#b3d4db;
+}

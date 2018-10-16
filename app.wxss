@@ -1,8 +1,10 @@
 text{
-  font-family: 微软雅黑;
-  font-size: 24rpx;
+    font-family: MicroSoft Yahei;
+    font-size: 24rpx;
+    color: #666;
 }
 
-page{
-  background: rgb(204, 204, 204);
+input{
+    font-family: MicroSoft YaHei;
 }
+
