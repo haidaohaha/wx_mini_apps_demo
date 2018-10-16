@@ -1,6 +1,6 @@
 <import src='/pages/post/post-item/post-item-template.wxml' />
 <view>
-  <swiper catchtap='onSwiperTap'  autoplay='false' interval='20000' indicator-dots circular>
+  <swiper catchtap='onSwiperTap'  autoplay='false' interval='2000' indicator-dots circular>
     <block wx:for="{{postList}}" wx:key="index">
       <swiper-item>
         <image src="{{item.bigBanner}}" data-postID='{{item.postId}}' />
